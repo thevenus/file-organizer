@@ -1,0 +1,22 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.1",
+  "description": "A CLI tool for organizing files in a folder according to their birthdates",
+  "keywords": ["file", "organize", "dates", "organizer", "restructure", "photo", "photos"],
+  "bugs": {
+    "email": "fuadzadev@gmail.com"
+  },
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fuad Mammadzade",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^2.1.1"
+  },
+  "bin": {
+    "organize": "./cli.js"
+  },
+  "os": ["linux"]
+}
